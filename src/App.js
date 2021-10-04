@@ -11,6 +11,7 @@ import Services from "./Componets/Services/Services";
 import Login from "./Componets/Login/Login";
 import ServicesRouter from "./Componets/ServicesRouter/ServicesRouter";
 import Footer from "./Componets/Footer/Footer";
+import Facilitates from "./Componets/Facilitates/Facilitates";
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
         <Route path="/services">
           <NavBar></NavBar>
           <ServicesRouter></ServicesRouter>
+        </Route>
+        <Route path="/facilitates">
+          <NavBar></NavBar>
+          <Facilitates></Facilitates>
         </Route>
         <Route path="/contact">
           <NavBar></NavBar>

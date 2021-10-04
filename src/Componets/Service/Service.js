@@ -38,7 +38,7 @@ const Service = (props) => {
         <Card.Body>
           <Card.Title className="pb-2">{name}</Card.Title>
           <Card.Text> categroy : {categroy}</Card.Text>
-          <Card.Text> price : {price}</Card.Text>
+          <Card.Text> price : ${price}</Card.Text>
           <Link to="/login">
             <button className="btn btn-danger">Buy Now</button>{" "}
           </Link>

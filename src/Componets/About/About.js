@@ -4,7 +4,7 @@ import img from "../../Images/about.png";
 
 const About = () => {
   return (
-    <section className="py-5">
+    <section className="py-5 px-4 px-md-0">
       <Container>
         <h1 className="text-center pb-3 fw-bold">
           <span className="text-danger">About</span> Us

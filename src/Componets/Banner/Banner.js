@@ -18,7 +18,7 @@ const Banner = () => {
                 experience.
               </p>
               <Link to="/services">
-                <button className="btn btn-danger">View Courses</button>
+                <button className="btn btn-danger my-4">View Courses</button>
               </Link>
             </div>
           </Col>
