@@ -11,7 +11,7 @@ import Services from "./Componets/Services/Services";
 import Login from "./Componets/Login/Login";
 import ServicesRouter from "./Componets/ServicesRouter/ServicesRouter";
 import Footer from "./Componets/Footer/Footer";
-import Facilitates from "./Componets/Facilitates/Facilitates";
+import Facilities from "./Componets/Facilities/Facilities";
 
 function App() {
   return (
@@ -28,9 +28,9 @@ function App() {
           <NavBar></NavBar>
           <ServicesRouter></ServicesRouter>
         </Route>
-        <Route path="/facilitates">
+        <Route path="/facilities">
           <NavBar></NavBar>
-          <Facilitates></Facilitates>
+          <Facilities></Facilities>
         </Route>
         <Route path="/contact">
           <NavBar></NavBar>

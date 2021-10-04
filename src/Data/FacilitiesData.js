@@ -1,4 +1,4 @@
-const FacilitatesData = [
+const FacilitiesData = [
   {
     image: "https://i.ibb.co/Z2zC8tN/technical-support.png",
     id: 1,

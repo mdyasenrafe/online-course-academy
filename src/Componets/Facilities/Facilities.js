@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import SingleFacilitates from "../SingleFacilitates/SingleFacilitates";
+import SingleFacilities from "../SingleFacilities/SingleFacilities";
 
-const Facilitates = () => {
-  const [facilitates, setFacilitates] = useState([]);
+const Facilities = () => {
+  const [facilities, setFacilities] = useState([]);
   useEffect(() => {
-    fetch("./FakeFacilitatesData.json")
+    fetch("./FakeFacilitiesData.json")
       .then((res) => res.json())
-      .then((data) => setFacilitates(data));
+      .then((data) => setFacilities(data));
   }, []);
   return (
     <section className="py-5">
@@ -15,13 +15,13 @@ const Facilitates = () => {
         <div className="text-center pb-3">
           <h1 className="fw-bold">
             <span>Our</span>
-            <span className="text-danger"> Facilitates</span>
+            <span className="text-danger"> Facilities</span>
           </h1>
           <p>Explore the weapons of Latest Information Technology!</p>
         </div>
         <Row xs={2} md={3} className="g-4">
-          {facilitates.map((data) => (
-            <SingleFacilitates data={data} key={data.id}></SingleFacilitates>
+          {facilities.map((data) => (
+            <SingleFacilities data={data} key={data.id}></SingleFacilities>
           ))}
         </Row>
       </Container>
@@ -29,4 +29,4 @@ const Facilitates = () => {
   );
 };
 
-export default Facilitates;
+export default Facilities;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const SingleFacilitates = (props) => {
+const SingleFacilities = (props) => {
   const { name, image, description } = props.data;
   return (
     <div>
@@ -17,4 +17,4 @@ const SingleFacilitates = (props) => {
   );
 };
 
-export default SingleFacilitates;
+export default SingleFacilities;
