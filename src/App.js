@@ -12,6 +12,7 @@ import Login from "./Componets/Login/Login";
 import ServicesRouter from "./Componets/ServicesRouter/ServicesRouter";
 import Footer from "./Componets/Footer/Footer";
 import Facilities from "./Componets/Facilities/Facilities";
+import Register from "./Componets/Register/Register";
 
 function App() {
   return (
@@ -39,6 +40,10 @@ function App() {
         <Route path="/login">
           <NavBar></NavBar>
           <Login></Login>
+        </Route>
+        <Route path="/signup">
+          <NavBar></NavBar>
+          <Register></Register>
         </Route>
         <Route exact path="/">
           <Home></Home>

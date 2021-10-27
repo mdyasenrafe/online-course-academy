@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <Navbar expand="lg" className="pt-2">
       <Container>
-        <LinkContainer to="/">
+        <LinkContainer to="/home">
           <Navbar.Brand className="font-weight-bold text-muted">
             <img height="40" src={logo} alt="" />
           </Navbar.Brand>
