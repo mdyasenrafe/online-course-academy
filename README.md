@@ -1,4 +1,4 @@
-# Foundation Project React
+# Online-course-academy-React
 
 this is single page application.[live websilte](https://assigment-9.netlify.app/)
 
